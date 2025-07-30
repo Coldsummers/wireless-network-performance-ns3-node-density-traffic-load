@@ -5,23 +5,6 @@ This repository contains the results and source code for analyzing wireless netw
 1. **Node Density Analysis**: Examining the impact of varying node densities on network metrics such as Packet Delivery Ratio (PDR), end-to-end delay, and throughput.
 2. **Traffic Load Analysis**: Studying how different traffic loads affect the same performance metrics.
 
-## Repository Structure
-```
-.
-├── node_density
-│   ├── Task1.cc.cc               # ns-3 simulation script for node density analysis
-│   ├── Task1.py.py               # Python script for processing trace files
-│   ├── metrics_vs_node_density1.png # Graph showing results of node density experiment
-│   ├── test1.sh                  # Shell script to run the node density experiment
-├── traffic_load
-│   ├── Task2.cc.cc               # ns-3 simulation script for traffic load analysis
-│   ├── Task2.py.py               # Python script for processing trace files
-│   ├── metrics_vs_traffic_load2.png # Graph showing results of traffic load experiment
-│   ├── test2.sh                  # Shell script to run the traffic load experiment
-├── LICENSE
-├── README.md                     # This README file
-```
-
 ## Prerequisites
 
 - **ns-3**: Ensure that ns-3 is installed and properly configured on your system. Follow the official [ns-3 installation guide](https://www.nsnam.org/wiki/Installation) for instructions.
